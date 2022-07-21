@@ -89,8 +89,16 @@ running by running the following command:
 ### I.3 SAM CLI installation
 
 AWS SAM provides you with a command line tool, the AWS SAM CLI, that makes it easy for you to create and manage serverless applications. You need to install and configure a few things in order to use the AWS SAM CLI.
+     
+Optional for Mac users, you can use the following commands to install the SAM CLI
+     
+```console
+brew tap aws/tap
+brew install aws-sam-cli
+```
 
-1. Download SAM CLI to a folder of your choice using CURL/WGET or directly using your browser [aws-sam-cli] <https://github.com/aws/aws-sam-cli/releases/latest/download/aws-sam-cli-linux-x86_64.zip>
+1. Download SAM CLI to a folder of your choice using CURL/WGET or directly using your browser [aws-sam-cli](https://github.com/aws/aws-sam-cli/releases/latest/download/aws-sam-cli-linux-x86_64.zip)
+
 2. unzip the file to sam-installation
 
 ```bash
@@ -181,7 +189,7 @@ This will give us an idea of the latency of our request, and how many memory it 
 1. Make sure that you have an active AWS account
 2. Select us-east-1 as the aws region for the remaining steps of the assignment.
   ![AWS region](/images/region_aws.png)
-3. Go to ![Identity and Access Management (IAM)] <https://us-east-1.console.aws.amazon.com/iamv2/home#/users>
+3. Go to [Identity and Access Management (IAM)](https://us-east-1.console.aws.amazon.com/iamv2/home#/users)
 and add a new user by clicking on "add users"
 ![Add User IAM](images/add_user_iam.png)
 3. Pick a name for the user (let's same it sam). and give it programmatic access using access key
